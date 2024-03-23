@@ -7,6 +7,8 @@ project(qimgv
 
 message(STATUS "Build configuration: " ${CMAKE_BUILD_TYPE})
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # check for gcc
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" AND
         CMAKE_CXX_COMPILER_VERSION VERSION_LESS 9.0)

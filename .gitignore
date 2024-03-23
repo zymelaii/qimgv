@@ -19,3 +19,7 @@ release/
 *.user
 ui_settingsdialog.h
 Makefile
+.cache
+.vscode
+build-*/
+build/

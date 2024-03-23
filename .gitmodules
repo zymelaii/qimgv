@@ -1,0 +1,6 @@
+[submodule "deps/exiv2"]
+	path = deps/exiv2
+	url = https://github.com/Exiv2/exiv2.git
+[submodule "deps/brotli"]
+	path = deps/brotli
+	url = https://github.com/google/brotli.git
